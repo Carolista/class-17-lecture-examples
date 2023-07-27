@@ -103,6 +103,25 @@ function explore(planet) {
 // TODO: Rewrite explore() as an arrow function stored in goBoldly
 const goBoldly = planet => console.log(`Let's go boldly toward ${planet}`);
 
+// TODO: Call goBoldly with the planet Nibiru
+goBoldly("Nibiru");
+
+
+function makeItGo(speedFactor, type = "impulse") {
+  if (type === "warp") {
+    console.log(`Warp factor ${speedFactor}`);
+  } else {
+    console.log(`${speedFactor} impulse`);
+  }
+}
+
+// TODO: Rewrite makeItGo() as an arrow function with a ternary expression stored in hitIt
+const hitIt = (speedFactor, type) => console.log(type === "warp" ? `Warp factor ${speedFactor}` : `${speedFactor} impulse`);
+
+// TODO: Call hitIt() with full/impulse and again with 8/warp
+hitIt("Full");
+hitIt(8, "warp");
+
 
 /** MAPPING OVER AN ARRAY **/
 
