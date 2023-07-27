@@ -86,6 +86,23 @@ function explore(planet) {
 
 // TODO: Rewrite explore() as an arrow function stored in goBoldly
 
+// TODO: Call goBoldly with the planet Nibiru
+
+
+function makeItGo(speedFactor, type = "impulse") {
+  if (type === "warp") {
+    console.log(`Warp factor ${speedFactor}`);
+  } else {
+    console.log(`${speedFactor} impulse`);
+  }
+}
+
+// TODO: Rewrite makeItGo() as an arrow function with a ternary expression stored in hitIt
+
+
+// TODO: Call hitIt() with full/impulse and again with 8/warp
+
+
 
 /** MAPPING OVER AN ARRAY **/
 
