@@ -1,5 +1,5 @@
-// TODO: Import all functions from the other two modules
-
+import calculateTotal from "./calc.js";
+import { getRandomIndex, getTitleCase } from "./utils.js";
 
 let testNums = [12, 6, 24, 7, 40, 28, 9, 17, 94, 82, 11, 3];
 
